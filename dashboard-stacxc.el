@@ -42,7 +42,7 @@
 	(when (dashboard-insert-sx-list
 	       "Recent Items on emacs.stackexchange.com :"
 	       (dashboard-subseq sx-list 0 list-size)))	 
-	(dashboard-insert--shortcut "p" "Recent Stackexchange Emacs items:")
+	;(dashboard-insert--shortcut "p" "Recent Stackexchange Emacs items:")
 	)
     
     ))
